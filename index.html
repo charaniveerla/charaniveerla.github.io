@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charani's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<div id="cursor-dot"></div>
+<body>
+    
+    <nav id="desktop-nav">
+      <div class="logo" onclick="location.href='#profile'" style="cursor: pointer;">
+        Charani's Portfolio.
+    </div>
+    
+      <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#leadership-volunteering">Leadership</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Charani Sri Veerla</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#leadership-volunteering" onclick="toggleMenu()">Leadership</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Charani's Profile Picture" style="height: 90%;" class="no-download"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Charani Sri Veerla</h1>
+            <p class="section__text__p2">Software Engineer | Curious about AI/ML </p>
+            <div><br></div>
+            <div class="work-auth-note">
+                Legally authorized to work in USA on F-1 OPT &nbsp;|&nbsp; Need no sponsorship till 25 June, 2028. <br>
+                <span class="note">Open to re-locate &nbsp;|&nbsp; Earliest availability from 26 June, 2025</span>
+            </div>
+            <div><br></div>
+        
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/Charani_Sri_Veerla_SDE_Resume_2025.pdf')">Download CV</button>
+                <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button> -->
+            </div>
+            <div><br><br></div>
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" title="LinkedIn" onclick="window.open('https://linkedin.com/in/charaniveerla', '_blank')"/>
+                <img src="./assets/github.png" alt="My Github profile" class="icon" title="GitHub" onclick="window.open('https://github.com/charaniveerla', '_blank')"/>
+                <img src="./assets/hackerrank.png" alt="My Hackerrank profile" class="icon" title="HackerRank" onclick="window.open('https://www.hackerrank.com/profile/charaniveerla', '_blank')"/>
+                <img src="./assets/leetcode.png" alt="My Leetcode profile" class="icon" title="LeetCode" onclick="window.open('https://leetcode.com/', '_blank')"/>
+                <img src="./assets/x.png" alt="My X profile" class="icon" title="X" onclick="window.open('https://x.com/VeerlaCharani', '_blank')"/>
+</div>
+        </div>
+    </section>
+    <!-- About Section -->
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='#education'"
+/>
+    <div class="section-container">
+        <div class="about-details-container">
+            <div class="text-container">
+                
+                    Hey there! 😊 I'm Charani, currently in my final semester of M. S. in Computer Science & Cybersecurity Analytics at 🎓 UAB, where I also work as the Graduate Teaching Assistant for the Machine Learning course. With three years of experience in software development, software engineering, and data science full-time and internship roles, I’ve had the opportunity to work with amazing teams at UAB, Cognizant, EPAM Systems, and Indian Servers, contributing to 🤖 AI-driven solutions, 💻 scalable software applications, and 📊 data-driven projects. I genuinely love problem-solving and constantly exploring the world of data science—learning something new every day keeps me motivated! 🚀
+                
+                <br>
+                
+                    When I’m not coding or analyzing data, you’ll find me 🎨 sketching digitally, experimenting in 🍳 the kitchen, or setting off on little adventures to explore 🌍 new places. And music? I’m a fan of all kinds 🎶 — it’s my creative fuel!
+                
+                <br>
+                
+                    I’m always open to learning, collaborating, and working on exciting ideas. Feel free to check out my portfolio to know more about my work! 📂
+            
+            </div>
+        </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#education'"
+    />
+</section>
+
+<!-- Education Section -->
+<section id="education">
+    <p class="section__text__p1">Check Out My Academic Journey</p>
+    <h1 class="title">Education</h1>
+    <div class="about-containers">
+        <div class="details-container">
+            <br>
+            <img src="./assets/uab-circle-logo.png" alt="UAB Logo" class="icon-exp" onclick="location.href='https://www.uab.edu/home/'" style="width: 40px; height: 40px;"/>
+            <br><br>
+            <p>
+                <h3>M. S. in Computer Science & Cyber Security Analytics (Expected May 2025)</h3>
+                CGPA: 4.0/4.0
+                <h5>The University of Alabama at Birmingham</h5>
+                <h6> Birmingham, Alabama, United States</h6>
+            </p>
+            <p>
+                <br /><br>
+                <img src="./assets/vrlogo.png" alt="VRSEC Logo" class="icon-exp" onclick="location.href='https://www.vrsiddhartha.ac.in/'" style="width: 40px; height: 40px;"/>
+                <br><br>
+                <h3>B. Tech. in Computer Science & Engineering (May 2022) </h3>
+                CGPA: 8.98/10.0 - Distinction
+                <h5>Velagapudi Ramakrishna Siddhartha Engineering College</h5>
+                <h6> Vijayawada, Andhra Pradesh, India</h6>
+            </p>
+        </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+</section>
+    <!-- Experience Section -->
+    <section id="experience">
+        <p class="section__text__p1">Here's My</p>
+        <h1 class="title">Experience</h1>
+        
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    
+                    <!-- UAB Experience -->
+                    <img src="./assets/uab-circle-logo.png" alt="UAB Logo" class="icon-exp"
+                        onclick="location.href='https://www.uab.edu/home/'" height="30px" width="30px" /><br><br>
+                    <h3>The University of Alabama at Birmingham</h3>
+                    Data Science Intern (Dec 2023 - Apr 2024)
+                    <br><br><br>
+    
+                    <!-- Cognizant Experience -->
+                    <img src="./assets/cts-logo.png" alt="Cognizant Logo" class="icon-exp"
+                        onclick="location.href='https://www.cognizant.com/in/en'" height="30px" width="30px" /><br><br>
+                    <h3>Cognizant Technology Solutions India Pvt. Ltd.</h3>
+                    Junior Software Engineer (Aug 2022 – Jul 2023)<br>
+                    Junior Software Engineer Intern (Feb 2022 - Aug 2022)
+                    <br><br><br>
+
+                    <!-- BluePrism Experience -->
+                    <img src="./assets/blueprism-logo.png" alt="EPAM Logo" class="icon-exp"
+                        onclick="location.href='https://www.blueprism.com/'" width="30px" height="30px" /><br><br>
+                    <h3>Blue Prism</h3>
+                    Junior Software Engineer Intern (Sep 2020 - Jun 2021)
+                    <br><br><br>
+    
+                    <!-- EPAM Experience -->
+                    <img src="./assets/epam-logo.png" alt="EPAM Logo" class="icon-exp"
+                        onclick="location.href='https://www.epam.com/'" width="30px" height="30px" /><br><br>
+                    <h3>EPAM Systems</h3>
+                    Junior Software Engineer Intern (Sep 2020 - Jun 2021)
+                    <br><br><br>
+    
+                    <!-- Indian Servers Experience -->
+                    <img src="./assets/indian-servers-logo.png" alt="Indian Servers Logo" class="icon-exp"
+                        onclick="location.href='https://indianservers.com/'" width="30px" height="30px" /><br><br>
+                    <h3>Indian Servers</h3>
+                    Software Traine - Machine Learning (Aug 2020 - Jan 2021)
+                    <br>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- Skills Section -->
+<section id="skills">
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow-up" onclick="location.href='./#profile'" />
+    <p class="section__text__p1">My Technical</p>
+    <h1 class="title">Skills</h1>
+    
+    <div class="experience-details-container">
+        <div class="about-containers">
+            
+            <!-- Programming & Software Development -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Programming & Development</h2>
+                <div class="article-container">
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Python</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Java</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>C++</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>JavaScript</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>TypeScript</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Go</h3><p>Basic</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>React.js</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Spring Boot</h3><p>Intermediate</p></div></article>
+                </div>
+            </div>
+
+            <!-- Software Engineering & Testing -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Software Engineering & Testing</h2>
+                <div class="article-container">
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Data Structures & Algorithms</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>System Design</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Unit Testing (JUnit, PyTest)</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>CI/CD Pipelines</h3><p>Intermediate</p></div></article>
+                </div>
+            </div>
+
+            <!-- Machine Learning & AI -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Machine Learning & AI</h2>
+                <div class="article-container">
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>TensorFlow</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>PyTorch</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Scikit-Learn</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>XGBoost</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Natural Language Processing (NLP)</h3><p>Intermediate</p></div></article>
+                </div>
+            </div>
+
+            <!-- Data Science & Analytics -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Data Science & Analytics</h2>
+                <div class="article-container">
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>SQL & NoSQL</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Pandas & NumPy</h3><p>Experienced</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Tableau & Power BI</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Apache Spark</h3><p>Basic</p></div></article>
+                </div>
+            </div>
+
+            <!-- Cloud & DevOps -->
+            <div class="details-container">
+                <h2 class="experience-sub-title">Cloud & DevOps</h2>
+                <div class="article-container">
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>AWS (EC2, Lambda, S3)</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Docker & Kubernetes</h3><p>Intermediate</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Terraform</h3><p>Basic</p></div></article>
+                    <article><img src="./assets/checkmark.png" alt="icon" class="icon" /><div><h3>Jenkins & GitHub Actions</h3><p>Intermediate</p></div></article>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+</section>
+
+
+<section id="projects">
+<!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+    /> -->
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <p style="text-align: center;"><i>Some repositories are set to private to uphold UAB's Integrity Code. Feel free to request access if needed!</i></p>
+    <br>
+    <div class="projects-container">
+        <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/airbnb-project-article-cover-photo.jpeg" alt="Project 1" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Optimizing Airbnb Pricing Strategies & Predictive Analysis</h3>
+            <h5>(Nov 2024)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/charaniveerla/Data-Mining-Project.git'">Github</button>
+            </div>
+        </div>
+
+        <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/fds-project-photo.jpeg" alt="Project 2" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">SVD – based Medical Image Enhancement & Segmentation</h3>
+            <h5>(Dec 2024)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/charaniveerla/FDS-Project.git'">Github</button>
+            </div>
+        </div>
+
+        <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/ml-project-cover-photo-1.png" alt="Project 3" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Logistic Regression – based Breast Cancer Diagnosis</h3>
+            <h5>(Dec 2023)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/charaniveerla/ML-Project.git'">Github</button>
+            </div>
+        </div>
+        <!-- <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/ml-project-cover-photo-1.png" alt="Project 4" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Logistic Regression – based Breast Cancer Diagnosis</h3>
+            <h5>(Dec 2023)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Its-a-me-Ashwin/SHAPER'">Github</button>
+            </div>
+        </div> -->
+        <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/ship-classification.png" alt="Project 5" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Water Vessel Classification: Comparative Analysis & Hybrid Model Ensembling of Transfer Learning Architectures</h3>
+            <h5>(Jan 2022)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/charaniveerla/Water-Vessel-Classification.git'">Github</button>
+            </div>
+        </div>
+        <!-- <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/ship-classification.png" alt="Project 6" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Water Vessel Classification: Comparative Analysis & Hybrid Model Ensembling of Transfer Learning Architectures</h3>
+            <h5>(Dec 2023)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rjaditya-2702/CS5010-ImageProcessor'">Github</button>
+            </div>
+        </div>
+        <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/ship-classification.png" alt="Project 7" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Water Vessel Classification: Comparative Analysis & Hybrid Model Ensembling of Transfer Learning Architectures</h3>
+            <h5>(Dec 2023)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rjaditya-2702/CS5010-ImageProcessor'">Github</button>
+            </div>
+        </div>
+        <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/ship-classification.png" alt="Project 8" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Water Vessel Classification: Comparative Analysis & Hybrid Model Ensembling of Transfer Learning Architectures</h3>
+            <h5>(Dec 2023)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rjaditya-2702/CS5010-ImageProcessor'">Github</button>
+            </div>
+        </div>
+        <div class="project-details-container color-container">
+            <div class="article-container">
+                <img src="./assets/ship-classification.png" alt="Project 9" class="project-img" />
+            </div>
+            <h3 class="experience-sub-title project-title">Water Vessel Classification: Comparative Analysis & Hybrid Model Ensembling of Transfer Learning Architectures</h3>
+            <h5>(Dec 2023)</h5><br />
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rjaditya-2702/CS5010-ImageProcessor'">Github</button>
+            </div>
+        </div> -->
+    </div>
+    </div>
+</section>
+
+    <section id="leadership-volunteering">
+        <p class="section__text__p1">Here's My</p>
+        <h1 class="title">Leadership & Volunteering</h1>
+        <div class="leadership-volunteering-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img
+                        src="./assets/uab-circle-logo.png"
+                        alt="Experience icon"
+                        class="icon-exp"
+                        onclick="location.href='https://www.uab.edu/home/'"
+                        height="60px"
+                        width="60px"
+                    />
+                    <br><br>
+                    <div class="uab-big-title">The University of Alabama at Birmingham (UAB)</div><br>
+                    
+                    <p><h2>Graduate Teaching Assistant - Machine Learning (Jan 2025 - May 2025)</h2></p>Supported the CS 667/767 graduate-level Machine Learning course at UAB during Spring 2025, mentoring over 120 students. Assisted Dr. Tianyang Wang with both instruction and technical guidance on advanced topics such as CNNs, SVMs, GANs, VAEs, Transfer Learning, and foundational concepts in Generative AI. Led office hours to clarify complex concepts and helped students debug their models using TensorFlow, PyTorch, and Scikit-learn. Responsibilities included grading assignments, research paper reviews, and exams, ensuring academic integrity and consistency in evaluation. Provided detailed feedback on machine learning implementations, which contributed to improved student performance and engagement throughout the course.
+                    <p></p><br/>
+                    
+                    <p><h2>Graduate Teaching Assistant - Software Engineering (Aug 2024 - Dec 2024)</h2></p>Assisted Dr. Tianyang Wang in teaching CS 420/520 Software Engineering to 95+ students during Fall 2024, delivering lectures on SDLC models, use case diagrams, and requirement analysis. Led 36+ hands-on JavaFX lab sessions focused on GUI dashboard development, Scene Builder, and the application of core design patterns such as MVC and Singleton. Mentored 23+ student project teams by reviewing design artifacts and code to ensure adherence to structured documentation and software quality standards. Evaluated 380+ programming and documentation assignments, grading on architecture, readability, and the implementation of best practices. Designed and delivered 12+ real-world-inspired lab materials, fostering collaborative learning and effectively bridging theory with practical application.
+                <p></p><br/>
+                    
+                    <p><h2>Academic Student Leader (Aug 2024)</h2></p>
+                    Assisted incoming students with course registration, MS program planning, and academic guidance under Ms. Amy Snow (Director of Academic Programs, INTO UAB) & Ms. Susan Blazer (Program Manager, UAB's LRC) during Fall 2024 Orientation. Provided financial planning support, explaining tuition structures and academic expenses to ease student transitions. Proctored English language tests, conducted one-on-one sessions, and resolved academic & administrative queries with clarity. Collaborated with International Mentors, fostering an inclusive and supportive environment for new students.
+                <p></p><br/>
+                    
+                    <p><h2>Computer Science Tutor (May 2024 - Aug 2024)</h2></p>
+                    Tutored 15+ students in Machine Learning, Cloud Security, Network Security, Database Systems, and Application Development under Ms. Monica Cantwell (Program Manager, UAB's LRC) Simplified complex concepts, improving student understanding of ML algorithms, cybersecurity protocols, and database management. Provided exam prep, project guidance, and debugging support, ensuring best practices in SQL, cloud security, and ML model implementation. Tailored learning strategies, enhancing critical thinking, problem-solving, and secure coding principles for improved academic performance.
+                <p></p><br/>
+                    
+                    <p><h2>Graduate Teaching Assistant - Machine Learning (Jan 2024 - Apr 2024)</h2></p>
+                    Supported 165+ students in Spring 2024’s CS 667/767: Machine Learning, assisting Prof. Tianyang Wang in delivering core ML concepts and practical applications. Led individual doubt-clearing sessions, teaching Logistic Regression, Support Vector Machines, Decision Trees, Random Forest, Gradient Boosting, K-Means, and Principal Component Analysis. Guided students in ML model development, assisting with TensorFlow, PyTorch, and Scikit-learn implementation, debugging, and algorithm optimization. Graded 800+ assignments ensuring academic integrity, best practices in hyperparameter tuning, model evaluation, and ML workflow optimization. Helped DSS students, collaborated with the Student Support Office, and maintained an inclusive, structured, and engaging learning environment.
+                <p></p>
+                    <br><br>
+                    <img
+                    src="./assets/vrlogo.png"
+                    alt="Experience icon"
+                    class="icon-exp"
+                    onclick="location.href='https://www.vrsiddhartha.ac.in'"
+                    height="60px"
+                    width="60px"/>
+                <br><br>
+
+                <div class="vrsec-big-title">Velagapudi Ramakrishna Siddhartha Engineering College (VRSEC)</div><br>
+                <p><h2>Elite Coding Club Ambassador - CSI chapter (Jun 2021 - May 2022)</h2></p>
+                Guiding 120+ students in Spring 2025’s CS 667/767: Machine Learning, assisting Prof. Tianyang Wang. Clarifying doubts during office hours, providing guidance on SVMs, Neural Networks, CNNs, Clustering, Autoencoders, GANs, VAEs, Transfer Learning, Active Learning, Self-Supervised Learning, AI Foundational Models, GenAI fundamentals, and parameter-efficient fine-tuning, ensuring a strong understanding of advanced ML techniques. Grading assignments, research paper reviews, exams, maintaining academic integrity and rigorous evaluation of ML methodologies. Proctoring exams and assessing coding assignments, offering structured feedback to enhance student comprehension and implementation skills.<p></p><br/>
+                
+                <p><h2>Student Volunteer – NSS Unit (Jun 2019 - May 2022)</h2></p>
+                Mentored 95+ students in Fall 2024's CS 420/520: Software Engineering course with Prof. Tianyang Wang, delivering structured instruction on SDLC models, requirement analysis, and specification documentation. Led 36+ hands-on lab sessions in JavaFX, covering Scene Builder, design patterns, and GUI dashboard development. Reviewed and provided feedback on 23+ project teams, ensuring high academic standards, structured documentation, and technical excellence. Graded 380+ assignments, evaluating code quality, software architecture, and adherence to industry best practices. Developed and delivered 12+ lab materials, bridging theory with real-world applications, fostering collaborative learning.<p></p><br/>
+                
+                </div>
+            </div>
+    </section>
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+        title="Personal Email"
+      />
+      <p>Email: <a href="mailto:tagveerla@gmail.com"><u>tagveerla@gmail.com</u></a></p>
+      <!-- <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+        title="School Email"
+      />
+      <p>School Email: <a href="mailto:cveerla@uab.edu"><u>cveerla@uab.edu</u></a></p>
+    </div> -->
+    <div class="contact-info-container">
+      <img
+        src="./assets/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+        title="LinkedIn"
+      />
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/charaniveerla"><u>linkedin.com/in/charaniveerla</u></a></p>
+      <img
+        src="./assets/phone.png"
+        alt="Phone icon"
+        class="icon contact-icon"
+        title="Phone"
+      />
+      <p>Phone: <a href="tel:+19163466066"><u>+1 (916) 346-6066</u></a></p>
+    </div>
+  </div>
+</section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#about">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#leadership-volunteering">Leadership</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Charani Sri Veerla. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
