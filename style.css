@@ -37,23 +37,23 @@ p {
     margin: 0 auto; /* Centers the container */
 }
 .projects-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Exactly 3 projects per row */
-    gap: 20px; /* Space between projects */
-    justify-content: center;
-}
-
-
-.project-details-container {
-    width: 100%; /* Makes each project take full width of the column */
-    max-width: 500px; /* Adjust this value as needed */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #f8f8f8;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Space between projects */
+    align-items: justify; /* Center each project horizontally */
+}
+
+.project-details-container {
+    background-color: #ffffff;
+    border: 1px solid #080808;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto 1.5rem auto;
+    text-align: justify;
+    display: block; /* Remove flex for box-like appearance */
 }
 .work-auth-note {
   text-align: center;
@@ -61,6 +61,8 @@ p {
   color: #000000;
   margin-top: 1rem;
 }
+
+
 
 
 /* TRANSITION */
@@ -85,14 +87,14 @@ nav {
   font-size: 1.5rem;
 }
 .uab-big-title {
-  font-size: 2.0rem;   /* Larger than h1 (usually 2-2.5rem) */
+  font-size: 1.6rem;   /* Larger than h1 (usually 2-2.5rem) */
   font-weight: bold;
   text-align: center;
   margin: 20px 0;
   line-height: 1.1;
 }
 .vrsec-big-title {
-  font-size: 2.0rem;   /* Match or adjust as needed */
+  font-size: 1.6rem;   /* Match or adjust as needed */
   font-weight: bold;
   text-align: center;
   margin: 20px 0;
@@ -608,6 +610,10 @@ article .icon {
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
+}
+
+.contact-info-container a {
+    white-space: nowrap;
 }
 
 /* .contact-info-upper-container {
